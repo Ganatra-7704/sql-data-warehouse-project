@@ -211,7 +211,7 @@ BEGIN
 		cat,
 		subcat,
 		maintainance
-		FROM silver.erp_px_cat_g1v2;
+		FROM bronxe.erp_px_cat_g1v2;
 		SET @end_time = GETDATE();
 		PRINT 'Load Duration: ' + CAST(DATEDIFF(second, @start_time, @end_time) AS NVARCHAR) + ' seconds';
 		PRINT '------------------';
